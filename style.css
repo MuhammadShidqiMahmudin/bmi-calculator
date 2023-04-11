@@ -1,0 +1,57 @@
+/* Styling for body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling for h1 element */
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Styling for form element */
+  form {
+    text-align: center;
+  }
+  
+  /* Styling for label elements */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Styling for input elements */
+  input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styling for button element */
+  button[type="button"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="button"]:hover {
+  background-color: #555;
+}
+
+/* Styling for p element */
+p#result {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 20px;
+}
+    
